@@ -6,7 +6,7 @@ body{
 
 .head{
     height: 430px;
-    background-image: url('./background\ image.webp');
+    background-image: url('/background\ image.webp');
 }
 
 .head h1{
