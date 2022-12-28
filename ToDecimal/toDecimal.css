@@ -1,0 +1,108 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #F4F4F4;
+}
+.main-1{
+    background-color: #FFF44F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    min-width: 500px;
+} 
+
+.main-1-heading {
+    font-family: 'Inter', sans-serif;
+    color: darkslategrey
+}
+
+#input-num{
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+    background-color: #FFF44F;
+    text-align: center;
+    color: darkslategrey;
+    border: 3px solid white;
+    border-radius: 10px;
+    width: 117px;
+    height: 83px;
+    margin-bottom: 30px;
+    outline: none;
+}
+
+.convert-btn{
+    width: 117px;
+    height: 42px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    color: whitesmoke;
+    background-color: #6699CC;
+} 
+.convert-btn:hover {
+    cursor: pointer;
+}
+
+.main-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    margin: auto;
+}
+.result-display{
+    width: 500px;
+    height: 109px;
+    background-color: white;
+    margin: 100px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: #353535;
+    border-radius: 5px;
+}
+.result-display p{
+    color: grey;
+}
+
+/* Custom Scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #ffb46f;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ffdab9;
+    border-radius: 5px;
+  }
+
+  /* To remove arrows from input field */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@media only screen and (max-width: 480px) {
+
+    .main-1-heading{
+        width: 530px;
+        display: block;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .result-display{
+        margin-left: 85px;
+    }
+}
