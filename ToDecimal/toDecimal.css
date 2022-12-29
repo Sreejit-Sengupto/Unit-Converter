@@ -96,13 +96,14 @@ body{
 @media only screen and (max-width: 480px) {
 
     .main-1-heading{
-        width: 530px;
-        display: block;
-        margin: auto;
         margin-bottom: 30px;
     }
 
-    .result-display{
-        margin-left: 85px;
+    .main-1{
+        width: 100vh;
+    }
+
+    .main-2{
+        width: 100vh;
     }
 }

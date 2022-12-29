@@ -53,14 +53,19 @@ body{
 
 @media only screen and (max-width: 480px) {
 
-    .main-1-heading{
+    .head h1{
         width: 530px;
         display: block;
         margin: auto;
         margin-bottom: 30px;
+        font-size: 60px;
     }
 
-    .result-display{
-        margin-left: 85px;
+    .head {
+        width: 100vh;
+    }
+
+    .tools{
+        width: 100vh;
     }
 }
