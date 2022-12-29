@@ -49,3 +49,18 @@ body{
     background-color: #e2e2e2;
     cursor: pointer;
 }
+
+
+@media only screen and (max-width: 480px) {
+
+    .main-1-heading{
+        width: 530px;
+        display: block;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .result-display{
+        margin-left: 85px;
+    }
+}
